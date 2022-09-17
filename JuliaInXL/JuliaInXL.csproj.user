@@ -2,8 +2,8 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
-    <StartProgram>C:\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE</StartProgram>
+    <StartProgram>C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE</StartProgram>
     <StartArguments>JuliaInXL-32bit.xll</StartArguments>
-    <StartWorkingDirectory>C:\Users\andy\Documents\GitHub\JuliaInXL\JuliaInXL\bin\Debug\</StartWorkingDirectory>
+    <StartWorkingDirectory>C:\Users\soonh\Downloads\JuliaInXL\JuliaInXL\bin\Debug\</StartWorkingDirectory>
   </PropertyGroup>
 </Project>

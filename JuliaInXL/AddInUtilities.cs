@@ -610,9 +610,6 @@ namespace JuliaInXL
         }
         public override void OnStartupComplete(ref Array custom)
         {
-            JuliaInXLutilities_global.jxlu.Utilities.JuliaProcess = JuliaInXLutilities_global.jxlu.Utilities.LaunchLocalJulia();
-            Thread thread = new Thread(new ThreadStart(JuliaInXLutilities_global.jxlu.Utilities.KeepAlive));
-            thread.Start();                     
         }
         public override void OnBeginShutdown(ref Array custom)
         {
@@ -1061,7 +1058,6 @@ namespace JuliaInXL
                         JuliaInXLutilities_global.jxlu.Utilities.JuliaProcess = null;
                     }
                 }
-                JuliaInXLutilities_global.jxlu.Utilities.JuliaProcess = JuliaInXLutilities_global.jxlu.Utilities.LaunchLocalJulia();
             }
 
         }
